@@ -1,0 +1,13 @@
+// 嵌套类测试
+div {
+  p {
+    font-weight: bold;
+  }
+}
+
+// 变量测试
+$fontColor: #525252;
+    
+h1 {
+  color: $fontColor;
+}
