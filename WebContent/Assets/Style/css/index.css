@@ -37,9 +37,11 @@
 
 .header .header_main_left li a {
   color: #888;
+  font-family: "Microsoft YaHei";
   display: inline-block;
   position: absolute;
   left: 0;
+  text-decoration: none;
   top: 0;
   z-index: 10;
 }
@@ -94,6 +96,7 @@
 .header .header_main_right .search input {
   display: inline-block;
   position: absolute;
+  padding-top: 3px;
   border: 1px solid #FFDE02;
   border-radius: 3px;
   border-bottom-right-radius: 0;
@@ -102,14 +105,27 @@
 
 .header .header_main_right .search a.search_button {
   display: inline-block;
+  background: #FFDE02;
   margin-left: 171px;
   width: 29px;
-  height: 19px;
+  height: 21px;
+  border-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 
-.header .header_main_right .login {
+.header .header_main_right a.login {
   display: inline-block;
+  text-decoration: none;
   position: absolute;
-  bottom: 0px;
-  margin: 16px 0px 16px 0px;
+  top: 0px;
+  margin: 16px 0px 16px 10px;
+  background: #5DCAFF;
+  color: aliceblue;
+  text-align: center;
+  vertical-align: top;
+  height: 21px;
+  width: 40px;
+  font-size: 14px;
+  border-radius: 3px;
 }
