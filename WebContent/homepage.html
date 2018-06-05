@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+<title>你的私人电影院</title>
+<link rel="stylesheet" href="./Assets/Style/css/forhomepage.css" type="text/css" > 
+<link rel="stylesheet" href="./Assets/Style/css/login.css" type="text/css" > 
+<link rel="stylesheet" href="./Assets/Style/css/common.css" type="text/css" > 
+<script type="text/javascript" src="./Assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./Assets/js/imgflow.js"></script>
+<script type="text/javascript" src="./Assets/js/login.js"></script>
+</head>
+
+<body>
+
+
+
+<div id="top">
+	<a href="javascript:;" class="flipInX">登录</a>
+	<form action=""> 
+		<input type="search" placeholder="What are you looking for?">		    	
+		<button>Search</button>
+	</form>
+</div>
+
+
+<div id="imageFlow">
+	
+	<div class="bank">
+		<a rel="images/1.jpg" title="1" href="#">
+		1</a>
+		<a rel="images/2.jpg" title="2" href="#">
+		2</a>
+		<a rel="images/3.jpg" title="3" href="#">
+		3</a>
+		<a rel="images/4.jpg" title="4" href="#">
+		4</a>
+		<a rel="images/5.jpg" title="5" href="#">
+		5</a>
+		<a rel="images/6.jpg" title="6" href="#">
+		6</a>
+		<a rel="images/7.jpg" title="7" href="#">
+		7</a>
+		<a rel="images/8.jpg" title="8" href="#">
+		8</a>
+		<a rel="images/9.jpg" title="9" href="#">
+		9</a>
+		<a rel="images/10.jpg" title="10" href="#">
+		10</a>
+		<a rel="images/11.jpg" title="11" href="#">
+		11</a>
+		<a rel="images/12.jpg" title="12" href="#">
+		12</a>
+		<a rel="images/13.jpg" title="13" href="#">
+		13</a>
+		<a rel="images/14.jpg" title="14" href="#">
+		14</a> </div>
+	<div class="text">
+		<div class="title">
+			Loading</div>
+		<div class="legend">
+			Please wait...</div>
+	</div>
+	<div class="scrollbar">
+		<img class="track" src="" alt="">
+		<img class="arrow-left" >
+		<img class="arrow-right" >
+		<img class="bar" src="" alt=""> </div>
+</div>
+
+<div id="lightbox" href="javascript:;" class="close" ></div>  
+
+<div id="login-wrap" class="animated" style="z-index: 1;display: none;">
+		<div class="login-html">
+			<input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+			<label for="tab-1" class="tab">Sign In</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up">
+			<label for="tab-2" class="tab">Sign Up</label>
+			
+			<form class="login-form">
+				<div class="sign-in-htm">
+					<div class="group">
+						<label for="user" class="label">Username</label>
+						<input id="user" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Password</label>
+						<input id="pass" type="password" class="input" data-type="password">
+					</div>
+					<div class="group">
+						<input id="check" type="checkbox" class="check" checked>
+						<label for="check"><span class="icon"></span> Keep me Signed in</label>
+					</div>
+					<div class="group">
+						<input type="submit" class="button" value="Sign In">
+					</div>
+					<div class="hr"></div>
+					<div class="foot-lnk">
+						<a href="#forgot">Forgot Password?</a>
+					</div>
+				</div>
+				<div class="sign-up-htm">
+					<div class="group">
+						<label for="user" class="label">Username</label>
+						<input id="user" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Password</label>
+						<input id="pass" type="password" class="input" data-type="password">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">Repeat Password</label>
+						<input id="pass" type="password" class="input" data-type="password">
+					</div>
+					
+					<div class="group">
+						<input type="submit" class="button" value="Sign Up">
+					</div>
+					<div class="hr"></div>
+					<div class="foot-lnk">
+						<label for="tab-1">Already Member?</a>
+						
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+
+
+</html>
