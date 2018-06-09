@@ -1,0 +1,61 @@
+$bd-color0:rgb(153, 51, 56);
+$bd-color100:rgb(241, 35, 35);
+$box-shadow0:rgba(255, 0, 0, 0.2);
+$box-shadow100:rgba(255, 0, 0, 0.6);
+$box-shadow-inset0:rgba(255, 0, 0, 0.1);
+$box-shadow-inset100:rgba(255, 0, 0, 0.4);
+
+@-webkit-keyframes glow {
+	0% {
+	border-color: $bd-color0;
+	box-shadow: 0 0 5px $box-shadow0, inset 0 0 5px $box-shadow-inset0, 0 2px 0 #000;
+	}	
+	100% {
+	border-color: $bd-color100;
+	box-shadow: 0 0 20px $box-shadow100, inset 0 0 10px $box-shadow-inset100, 0 2px 0 #000;
+	}
+}
+
+@-moz-keyframes glow {
+	0% {
+	border-color: $bd-color0;
+	box-shadow: 0 0 5px $box-shadow0, inset 0 0 5px $box-shadow-inset0, 0 2px 0 #000;
+	}	
+	100% {
+	border-color: $bd-color100;
+	box-shadow: 0 0 20px $box-shadow100, inset 0 0 10px $box-shadow-inset100, 0 2px 0 #000;
+	}
+}
+
+@-o-keyframes glow {
+	0% {
+	border-color: $bd-color0;
+	box-shadow: 0 0 5px $box-shadow0, inset 0 0 5px $box-shadow-inset0, 0 2px 0 #000;
+	}	
+	100% {
+	border-color: $bd-color100;
+	box-shadow: 0 0 20px $box-shadow100, inset 0 0 10px $box-shadow-inset100, 0 2px 0 #000;
+	}
+}
+
+@-ms-keyframes glow {
+	0% {
+	border-color: $bd-color0;
+	box-shadow: 0 0 5px $box-shadow0, inset 0 0 5px $box-shadow-inset0, 0 2px 0 #000;
+	}	
+	100% {
+	border-color: $bd-color100;
+	box-shadow: 0 0 20px $box-shadow100, inset 0 0 10px $box-shadow-inset100, 0 2px 0 #000;
+	}
+}
+
+@keyframes glow {
+	0% {
+	border-color: $bd-color0;
+	box-shadow: 0 0 5px $box-shadow0, inset 0 0 5px $box-shadow-inset0, 0 2px 0 #000;
+	}	
+	100% {
+	border-color: $bd-color100;
+	box-shadow: 0 0 20px $box-shadow100, inset 0 0 10px $box-shadow-inset100, 0 2px 0 #000;
+	}
+}

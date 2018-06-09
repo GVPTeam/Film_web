@@ -43,11 +43,13 @@ body {
 #top form {
   position: absolute;
   margin: auto;
-  left: 39%;
+  left: 0;
   right: 0;
-  top: 30%;
+  top: 0;
   bottom: 0;
   font-size: 0px;
+  width: 282px;
+  height: 40px;
 }
 
 #top form input {
@@ -182,29 +184,6 @@ body {
 
 #imageFlow .legend {
   font-size: 0.8em;
-}
-
-#imageFlow .scrollbar {
-  position: absolute;
-  left: 10%;
-  bottom: 10%;
-  width: 80%;
-  height: 16px;
-}
-
-#imageFlow .track {
-  position: absolute;
-  left: 1%;
-  width: 98%;
-  height: 16px;
-  filter: alpha(opacity=30);
-  opacity: 0.3;
-}
-
-#imageFlow .bar {
-  position: absolute;
-  height: 16px;
-  left: 25px;
 }
 
 @-webkit-keyframes glow {

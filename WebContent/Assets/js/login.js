@@ -20,9 +20,9 @@ $(function(){
 		$('#login-wrap').removeAttr('class').addClass('animated '+className+'').fadeIn();
 	});
 
-	$('.claseDialogBtn').click(function(){
-		$('#dialogBg').fadeOut(300,function(){
-			$('#dialog').addClass('bounceOutUp').fadeOut();
+	$('.close').click(function(){
+		$('#lightbox').fadeOut(300,function(){
+			$('#login-wrap').addClass('bounceOutUp').fadeOut();
 		});
 	});
 });

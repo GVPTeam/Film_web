@@ -1,0 +1,50 @@
+.select{
+    width: 200px; 
+    line-height: 25px; 
+    border-radius: 2px; 
+    border:1px solid rgb(133, 133, 133); 
+    font-size: 12px; 
+    padding:0 10px; 
+    position: relative;
+    margin-left: 34px;
+    margin-right: 34px;
+    span{
+        text-align: center;
+        display: block; 
+        height: 25px; 
+        cursor: pointer;
+    }
+    li{
+        padding: 0;
+        margin:0;
+        line-height: 30px;
+        color: #666; 
+        list-style-type: none; 
+        cursor: pointer;
+        transition: all 1s ease 0s;
+        &:hover{
+        padding-left: 20px; 
+        font-size: 14px;
+        color: rgb(250, 160, 160);
+        }
+        &:last-child{
+        border-bottom: 0
+        }
+    }
+    ul{
+        display: none;
+        padding: 0;
+        margin:0;
+    }
+    &:hover{
+        border: 1px solid rgba(255, 114, 114, 0.87);
+        box-shadow: 0 0 4px rgba(255, 114, 114, 0.87);
+    }
+}
+
+.flipx { 
+    transform: rotateY(180deg); 
+}
+
+
+		

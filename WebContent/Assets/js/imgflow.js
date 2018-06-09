@@ -314,8 +314,8 @@ var imf = function () {
 				/* ==== image onload ==== */
 				if (this.img.complete && this.img.width) {
 					/* ---- get size image ---- */
-					this.iw     = this.img.width;
-					this.ih     = this.img.height;
+					this.iw     = this.img.width*1.5;
+					this.ih     = this.img.height*1.5;
 					this.r      = this.ih / this.iw;
 					this.loaded = true;
 					/* ---- create reflexion ---- */
