@@ -20,12 +20,14 @@ public class MyTest extends HttpServlet {
 	private TT tt = new TT(); 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String type = request.getParameter("type"); //获取前端数据
-		List<Map<String, Object>> list = tt.add();	//逻辑处理
+		//String type = request.getParameter("type"); //获取前端数据
+		
+		List<Map<String, Object>> list = tt.add_film();	//逻辑处理
+		
 		String string = JSONArray.fromObject(list).toString(); //变为JSON数组
+		System.out.println(string);
 		//response.getWriter().print(string);
 		response.getWriter().write(string); //返回数据给前端
-		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

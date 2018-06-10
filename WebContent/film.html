@@ -17,6 +17,8 @@
 		<script src="Assets/js/modernizr.custom.js"></script>
 		<script src="Assets/js/jquery.min.js"></script>
 		<script src="Assets/js/select.js"></script>
+		<script src="my_js/first.js"></script>
+
 
 	</head>
 	<body>
@@ -41,9 +43,9 @@
 				<div id="select-type" class="select">
 					<span class="checkspan-2">all</span>
 					<ul>
-						<li>111</li>
-						<li>2017</li>
-						<li>all</li>
+						<li class="type" value="111">111</li>
+						<li class="type" value="2017">2017</li>
+						<li class="type" value="2017">all</li>
 					</ul>
 				</div>
 				<!--时长-->
@@ -62,6 +64,7 @@
 			
 			<div id="theGrid" class="main">
 				<section class="grid">
+
 					<header class="top-bar">
 						<h2 class="top-bar__headline">Latest film</h2>
 						<div class="filter">
@@ -70,157 +73,8 @@
 						</div>
 					</header>
 
-					<!--电影项目-->
-					<a class="grid__item" href="#">
-						<div class="loader"></div>
-						<div class="load_img">
-							<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author01" /> 	
-						</div>
-					</a>
-					<a class="grid__item" href="#">
-						<div class="loader"></div>
-						<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author02" /> 	
-						</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author03" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author04" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author05" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author06" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author07" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author08" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author09" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author10" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author11" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author12" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author13" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author14" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author15" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author16" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author17" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author18" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author19" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author20" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author21" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author22" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author23" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author24" /> 	
-							</div>
-					</a>
-					<a class="grid__item" href="#">
-							<div class="loader"></div>
-							<div class="load_img">
-								<img class="meta__avatar" src="Assets/img/images/1.jpg" alt="author25" /> 	
-							</div>
-					</a>
+					
+					
 					<footer class="page-meta">
 						<span>Load more...</span>
 					</footer>
@@ -352,4 +206,11 @@
 		
 		
 	</body>
+	<script>
+		window.onload = function(){
+			aa();
+		}
+
+	</script>
+
 </html>
